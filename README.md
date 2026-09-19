@@ -77,3 +77,49 @@ __pycache__
 
 ## License
 MIT
+
+
+## 🐳 Docker Workflow
+
+```text
+Developer
+   │
+   ▼
+Write Application Code
+   │
+   ▼
+Create Dockerfile
+   │
+   ▼
+Build Docker Image
+   │
+   │  docker build
+   ▼
+Docker Image
+   │
+   ▼
+Run Container
+   │
+   │  docker run
+   ▼
+Docker Container
+   │
+   ▼
+Application Runs
+   │
+   ▼
+Test & Debug
+   │
+   ▼
+Push Image to Docker Hub
+   │
+   │  docker push
+   ▼
+Docker Registry
+   │
+   ▼
+Pull Image on Another Machine
+   │
+   │  docker pull
+   ▼
+Run Application Anywhere
